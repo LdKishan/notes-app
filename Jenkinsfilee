@@ -5,7 +5,7 @@ pipeline {
         stage("clone code"){
             steps {
                 echo "clone the code into github"
-                git url:"https://github.com/Shiba07s/notes-app.git", branch:"main"
+                git url:"https://github.com/LdKishan/notes-app.git", branch:"main"
             }
             
         }
